@@ -45,7 +45,6 @@ void readEncoder(){
 void setup() {
   pinMode(encoderAPin, INPUT);
   pinMode(encoderBPin, INPUT);
-//  attachInterrupt(digitalPinToInterrupt(encoderAPin),readEncoder,RISING);
   pinMode(motorPWMPin, OUTPUT);
   pinMode(motorDirectionPin1, OUTPUT);
   pinMode(motorDirectionPin2, OUTPUT);
